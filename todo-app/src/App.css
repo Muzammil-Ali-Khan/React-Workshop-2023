@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background-color: rgb(48, 44, 44);
+  min-height: 100vh;
+}
+
+.todos {
+  margin: auto;
+  width: 80%;
+}
+
+.todos > h1 {
+  text-align: center;
+  color: aliceblue;
+  padding-top: 2rem;
+  font-weight: 600;
+}
+
+.add-todo {
+  background-color: rgb(80, 78, 78);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  margin-top: 2rem;
+}
+.add-todo label {
+  color: aliceblue;
+}
+.input-fields-box {
+  display: flex;
+  gap: 1rem;
+}
+.input-box {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.input-field {
+  padding: 5px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+.input-field:enabled {
+  border: 1px orange solid;
+}
+
+.button {
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.add-button {
+  background-color: orange;
+  border: 1px solid black;
+  color: aliceblue;
+}
+
+.todo-list {
+  /* width: 70%;
+  margin: auto; */
+  /* padding: 1rem; */
+  margin-top: 1rem;
+}
+.todo {
+  width: 70%;
+  margin: auto;
+  background-color: rgb(80, 78, 78);
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.todo-data > h2 {
+  color: orange;
+}
+.todo-data > p {
+  color: aliceblue;
+}
+.icon-button {
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}
+.complete-button {
+  color: rgb(106, 223, 106);
+}
+.delete-button {
+  color: rgb(250, 51, 51);
+}
+.buttons-div {
+  display: flex;
+  gap: 1rem;
+}
